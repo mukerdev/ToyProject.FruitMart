@@ -17,6 +17,8 @@
 		B534B40227F4322A00A30BC8 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B534B40127F4322A00A30BC8 /* ColorExtension.swift */; };
 		B534B40427F4325700A30BC8 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B534B40327F4325700A30BC8 /* Product.swift */; };
 		B534B40627F4329900A30BC8 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B534B40527F4329900A30BC8 /* ProductRow.swift */; };
+		B564EBCE27F61E2900176ACA /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B564EBCD27F61E2900176ACA /* BundleExtension.swift */; };
+		B564EBD027F6215400176ACA /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = B564EBCF27F6215400176ACA /* Store.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		B534B40127F4322A00A30BC8 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		B534B40327F4325700A30BC8 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Product.swift; path = FruitMart/Source/Helper/Extension/Product.swift; sourceTree = SOURCE_ROOT; };
 		B534B40527F4329900A30BC8 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		B564EBCD27F61E2900176ACA /* BundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtension.swift; sourceTree = "<group>"; };
+		B564EBCF27F6215400176ACA /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Store.swift; path = FruitMart/Source/Helper/Extension/Store.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				B534B40327F4325700A30BC8 /* Product.swift */,
+				B564EBCF27F6215400176ACA /* Store.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -155,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				B534B40127F4322A00A30BC8 /* ColorExtension.swift */,
+				B564EBCD27F61E2900176ACA /* BundleExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -234,6 +240,8 @@
 				5238EACC240BAC920079E99D /* AppDelegate.swift in Sources */,
 				5238EACE240BAC920079E99D /* SceneDelegate.swift in Sources */,
 				B534B40627F4329900A30BC8 /* ProductRow.swift in Sources */,
+				B564EBD027F6215400176ACA /* Store.swift in Sources */,
+				B564EBCE27F61E2900176ACA /* BundleExtension.swift in Sources */,
 				B534B40427F4325700A30BC8 /* Product.swift in Sources */,
 				5238EAD0240BAC920079E99D /* Home.swift in Sources */,
 				B534B40227F4322A00A30BC8 /* ColorExtension.swift in Sources */,
@@ -377,6 +385,7 @@
 				DEVELOPMENT_TEAM = 2V72T39FKF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/FruitMart/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -397,6 +406,7 @@
 				DEVELOPMENT_TEAM = 2V72T39FKF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/FruitMart/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
